@@ -2,21 +2,21 @@ var questions = [
     {
         title: "JavaScript is one of __ languages programmers must learn?",
         choices: ["One", "Two", 'Three', 'Four'],
-        correct: 'choice 3'
+        correct: 'Three'
     },
     {
         title: "Inside which HTML element do we put the JavaScript?",
         choices: ["<script>", "<js>", '<scripting>', '<javascript>'],
-        correct: 'choice 1'
+        correct: '<script>'
     },
     {
         title: "Where is the correct place to insert a JavaScript?",
         choices: ["<head>", "<body>", 'either/both', 'in the style.css'],
-        correct: 'choice 3'
+        correct: 'Either/both'
     },
 ]
 
-var time = questions.length * 20;
+var time = questions.length * 60;
 var timerId;
 var questionIndex = 0;
 
