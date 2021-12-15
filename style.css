@@ -1,0 +1,136 @@
+
+h1 {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+text-align: center;
+
+}
+h2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    width: 40%;
+    border-radius: 7px;
+    background-color: darkturquoise;
+    margin: auto;
+}
+ul {
+list-style: none;
+text-align: center;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    font-weight: bold;
+
+}
+
+input[type=radio] {
+    border: 0px;
+    width: 20px;
+    height: 32px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.hide {
+    display: none;
+}
+
+.quizcontainer {
+    background-color: rgb(68, 42, 6);
+    border-radius: 7px;
+    width: 75%;
+    margin: auto;
+    padding-top: 6px;
+    position: relative;
+    border: 2px;
+}
+
+.quizcontainer #quiz {
+    text-shadow: 1px 1px 2px lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    margin: auto;
+}
+.next {
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 7;
+    height: 35px;
+    text-align: center;
+    background-color: lightblue;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4px;
+    float: right;
+    right: 30%;
+}
+
+.prev {
+    box-shadow: 2px 2px 5px #888;
+    border-radius: 7;
+    height: 35px;
+    text-align: center;
+    background-color: lightblue;
+    color: crimson;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    margin: auto;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 4px;
+    float: left;
+    right: 30%;
+}
+.question {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    width: 40%;
+    height: auto;
+    margin: auto;
+    border-radius: 7px;
+    background-color: lawngreen;
+    text-align: center;
+
+
+}
+.choices button{
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+
+}
+.message{
+    /* background-color: khaki; */
+    border-radius: 7px;
+    width: 25%;
+    margin: auto;
+    text-align: center;
+    padding: 6px;
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: red;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+
+}
+.score {
+    width: 45%;
+    border-radius: 7px;
+    background-color: powderblue;
+    margin: auto;
+    color: darkgreen;
+    text-align: center;
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 30%;
+}
